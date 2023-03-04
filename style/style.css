@@ -1,0 +1,66 @@
+:root{
+    --principal-text-color: #19191A !important;
+}
+
+
+body{
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    color: var(--principal-text-color);
+    padding-top: 50px;
+}
+
+.footer-height{
+    height: 100px;
+}
+
+
+.list-style {
+    padding: 0px;
+}
+.list-style li a{
+    text-decoration: none !important;
+    color: var(--principal-text-color) !important;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.white{
+    text-decoration: none !important;
+    color: white;
+}
+
+.list-style li {
+    list-style: none;
+    background: linear-gradient(90deg, rgba(197, 197, 197, 0.26) -12.74%, rgba(106, 224, 255, .271) 56.76%);
+    padding: 20px;
+    border: var(--principal-text-color) solid 2px;
+    box-shadow: 3px 3px var(--principal-text-color);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.list-style li:hover {
+    background: linear-gradient(90deg, rgba(207, 14, 104, 0.26) -12.74%, rgba(106, 225, 255, 0.664) 56.76%);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 750px) {
+    .logo-width{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo-width{
+        width: 25%;
+    }
+}
+
